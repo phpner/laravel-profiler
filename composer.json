@@ -1,0 +1,32 @@
+{
+    "name": "phpner/laravel-profiler",
+    "description": "Laravel package for measuring and logging memory usage and execution time",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phpner\\MemoryProfiler\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3|^11.0|^12.0",
+        "orchestra/testbench": "^9.0|^8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phpner\\MemoryProfiler\\Tests\\": "tests/",
+            "Phpner\\MemoryProfiler\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phpner\\MemoryProfiler\\MemoryProfilerServiceProvider"
+            ]
+        }
+    }
+}

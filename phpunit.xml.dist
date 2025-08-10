@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    bootstrap="vendor/autoload.php"
+    colors="true"
+    beStrictAboutOutputDuringTests="true"
+    failOnWarning="true"
+    failOnRisky="true"
+>
+    <testsuites>
+        <testsuite name="Package Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+    </source>
+
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_CONNECTION" value="sync"/>
+
+        <env name="MEMORY_PROFILER_ENABLED" value="true"/>
+        <env name="MEMORY_PROFILER_DRIVER" value="log"/>
+        <env name="MEMORY_PROFILER_THRESHOLD" value="0"/>
+        <env name="MEMORY_PROFILER_HEADERS" value="true"/>
+    </php>
+</phpunit>
