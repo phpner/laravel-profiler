@@ -2,8 +2,8 @@
 
 > Measure **peak memory** and **execution time** in your Laravel app — for HTTP requests and Artisan commands. Ships with headers, logs, and optional Telescope integration.
 
-[![Packagist](https://img.shields.io/packagist/v/ov/laravel-profiler.svg)](https://packagist.org/packages/ov/laravel-profiler)
-[![PHP](https://img.shields.io/packagist/php-v/ov/laravel-profiler)](https://www.php.net/)
+[![Packagist](https://img.shields.io/packagist/v/phpner/laravel-profiler.svg)](https://packagist.org/packages/phpner/laravel-profiler)
+[![PHP](https://img.shields.io/packagist/php-v/phpner/laravel-profiler)](https://www.php.net/)
 ![Laravel](https://img.shields.io/badge/Laravel-10.x%E2%80%9312.x-red)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
