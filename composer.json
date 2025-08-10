@@ -1,6 +1,7 @@
 {
     "name": "phpner/laravel-profiler",
     "description": "Laravel package for measuring and logging memory usage and execution time",
+    "keywords": ["laravel", "profile", "memory", "profiler", "debug", "performance"],
     "type": "library",
     "license": "MIT",
     "autoload": {
